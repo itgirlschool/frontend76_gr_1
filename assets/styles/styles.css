@@ -1,6 +1,6 @@
 
 
-@media screen and (min-width: 400px) (max-width: 1400px) { 
+@media screen and (min-width: 400px) and (max-width: 1400px) { 
     .container {
     display: grid;
     max-width: 1400px;
