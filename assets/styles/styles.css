@@ -1,0 +1,45 @@
+
+
+@media screen and (min-width: 400px) (max-width: 1400px) { 
+    .container {
+    display: grid;
+    max-width: 1400px;
+    max-height: 913px;
+    flex-shrink: 0;
+    grid-template-columns: 50% 50%;
+}
+
+body {
+    background-color: #00060a;
+}
+
+.main-image {
+    position: absolute;
+    width: 650px;
+    height: 873px;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+
+.main-info {
+    display: inline-flex;
+    padding-right: 0px;
+    align-items: center;
+    gap: 60px;
+}
+
+.main-title {
+    font-size: 70px;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 88px; /* 125.714% */
+    letter-spacing: 3.2px;
+    color: #FFF;
+}
+
+
+
+
+
+
