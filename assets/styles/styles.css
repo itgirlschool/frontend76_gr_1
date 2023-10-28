@@ -22,7 +22,7 @@
 
 .main-info {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding-right: 0px;
     align-items: center;
     gap: 60px;
@@ -38,8 +38,20 @@
     color: #FFF;
 }
 
+.social-info {
+    width: 289px;
+    height: 72px;
+    flex-shrink: 0;
+}
 
-
-
-
-
+.name-info {
+    color: #FFF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    width: 66px;
+    padding: 10px;
+    margin: 10px;
+}
