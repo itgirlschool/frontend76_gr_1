@@ -14,7 +14,7 @@ body {
 }
 
 .main-image {
-    position: absolute;
+    position: relative;
     width: 650px;
     height: 873px;
     flex-shrink: 0;
@@ -22,7 +22,8 @@ body {
 }
 
 .main-info {
-    display: inline-flex;
+    display: flex;
+    justify-content: center;
     padding-right: 0px;
     align-items: center;
     gap: 60px;
