@@ -1,42 +1,71 @@
+@media screen and (min-width: 320px) and (max-width: 2560px) {
+  body {
+    background-color: #00060a;
+  }
 
-
-@media screen and (min-width: 320px) and (max-width: 2560px) { body { background-color: #00060a;}
-    .container {
+  .container {
     display: grid;
     max-width: 1400px;
     max-height: 913px;
     flex-shrink: 0;
     grid-template-columns: 50% 50%;
-}
+  }
 
-.main-image {
+  .main-image {
     position: relative;
     width: 650px;
     height: 873px;
     flex-shrink: 0;
     border-radius: 12px;
-}
+  }
 
-.main-info {
+  .main-info {
     display: flex;
     justify-content: center;
     padding-right: 0px;
     align-items: center;
     gap: 60px;
-}
+  }
 
-.main-title {
+  .main-title {
     font-size: 70px;
     font-family: DM Sans, sans-serif;
     font-style: normal;
     font-weight: 400px;
     line-height: 88px; /* 125.714% */
     letter-spacing: 3.2px;
-    color: #FFF;
+    color: #fff;
+  }
 }
 
+/* Общие стили */
+.button {
+  color: #fff;
+  border-radius: 6px;
+  border: none;
+  background-color: #118da8;
+}
 
+/* Стили Latest episodes */
 
+.episodes-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.episodes-header__title {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+  color: #fff;
+}
 
-
-
+.episodes-header__button {
+  padding: 12px 15px 12px 20px;
+  font-family: "DM Sans", sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+}

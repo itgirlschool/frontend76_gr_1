@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=ß, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css?family=DM+Sans:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+        rel="stylesheet" />
     <title>Castaway</title>
+    <link rel="stylesheet" href="./assets/styles/normalize.css">
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
 
 <body>
-<header>
-</header>
-    
-<main>
-    <section class="main-content"> <!--общий блок-->
-        <div class="container"> <!--контейнер-->
-            <div class="main-image">
-                <img src="./assets/images/IMAGE.png" alt="podcast">
-            </div>
+    <header>
+    </header>
 
-            <div class="main-info">
-                <h1 class="main-title">Take your podcast to the <span class="text1">next level</span></h1>
-                <img src="./assets/icons/Frame.png" alt="icons">
-            </div>  
-        </div>
-    </section>
-</main>
-        
-<footer>
-</footer>
-        
+    <main>
+        <section class="main-content"> <!--общий блок-->
+            <div class="container"> <!--контейнер-->
+                <div class="main-image">
+                    <img src="./assets/images/IMAGE.png" alt="podcast">
+                </div>
+
+                <div class="main-info">
+                    <h1 class="main-title">Take your podcast to the <span class="text1">next level</span></h1>
+                    <img src="./assets/icons/Frame.png" alt="icons">
+                </div>
+            </div>
+        </section>
+
+        <!-- section episodes -->
+
+        <section class="episodes">
+            <div class="episodes-header">
+                <h2 class="episodes-header__title">Latest episodes</h2>
+                <button class="episodes-header__button button">View all episodes</button>
+            </div>
+            <div class="episodes-cards">
+                <div class="episodes-card">
+                    <div class="episodes-card__image"></div>
+                    <div class="episodes-card__text">
+                        <span class="episodes-card__label"></span>
+                        <span class="episodes-card__subtitle"></span>
+                        <h2 class="episodes-card__title"></h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+    </footer>
+
 </body>
+
 </html>
