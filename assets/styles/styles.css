@@ -3,14 +3,7 @@
     font-family: 'DM Sans';
     src: url("../fonts/DM_Sans/DMSans-Italic.ttf");
 }
-@media screen and (min-width: 320px) and (max-width: 2560px) { body { background-color: #00060a;}
-    .container {
-    display: grid;
-    max-width: 1400px;
-    max-height: 913px;
-    flex-shrink: 0;
-    grid-template-columns: 50% 50%;
-}
+
 
 .main-image {
     position: relative;
@@ -57,4 +50,13 @@
     width: 66px;
     padding: 10px;
     margin: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 2560px) { body { background-color: #00060a;}
+    .container {
+    display: grid;
+    max-width: 1400px;
+    max-height: 913px;
+    flex-shrink: 0;
+    grid-template-columns: 50% 50%;
 }
