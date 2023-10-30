@@ -91,6 +91,16 @@
   border-radius: 32px;
 }
 
+.episodes-card__image {
+  width: 100%;
+  max-width: 389px;
+  object-fit: cover;
+  overflow: hidden;
+}
+.episodes-card__image img {
+  width: 100%;
+}
+
 .card-text {
   display: flex;
   flex-direction: column;
@@ -98,8 +108,6 @@
 }
 
 .card-text__label {
-  /* max-width: 136px; */
-  display: inline-block;
   padding: 0 16px;
   margin-bottom: 48px;
   font-size: 18px;
