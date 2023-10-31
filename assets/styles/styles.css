@@ -192,6 +192,9 @@
     flex-shrink: 0;
     background: #000;
 }
+.image_body {
+  background: #000;
+}
 
 .card-body {
     display: flex;
