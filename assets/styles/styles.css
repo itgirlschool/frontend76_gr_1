@@ -15,12 +15,10 @@ body {
 }
 
 .main-image {
-  max-width: 650px;
-  max-height: 873px;
+  max-width: 530px;
+  max-height: 610.578px;
   flex-shrink: 0;
   border-radius: 12px;
-  width: 530px;
-  height: 610.578px;
 }
 
 .main-info {
