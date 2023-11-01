@@ -10,14 +10,14 @@ body {
 
 .container {
   display: grid;
-  max-width: 1400px;
-  max-height: 913px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1;
+  
 }
 
 .main-image {
   max-width: 530px;
   max-height: 610.578px;
-  flex-shrink: 0;
   border-radius: 12px;
 }
 
