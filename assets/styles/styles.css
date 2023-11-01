@@ -32,8 +32,10 @@ body {
 .main-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-
+  align-items: center;
+  gap: 53px;
+  padding: 40px;
+  
 }
 
 .main-title {
