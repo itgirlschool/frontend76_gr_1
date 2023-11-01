@@ -33,9 +33,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-right: 0px;
-  gap: 60px;
-  padding-top: 200px;
+
 }
 
 .main-title {
