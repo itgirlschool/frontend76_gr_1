@@ -15,9 +15,8 @@ body {
 }
 
 .main-image {
-  position: relative;
-  width: 650px;
-  height: 873px;
+  max-width: 650px;
+  max-height: 873px;
   flex-shrink: 0;
   border-radius: 12px;
   width: 530px;
