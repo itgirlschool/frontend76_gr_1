@@ -12,13 +12,19 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1;
-  
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 100px 50px 160px;
 }
 
 .main-image {
   max-width: 530px;
   max-height: 610.578px;
   border-radius: 12px;
+}
+
+.image_6 {
+
 }
 
 .main-info {
