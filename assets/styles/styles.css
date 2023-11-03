@@ -16,11 +16,11 @@ body {
 
 .container_block1 {
   display: flex;
-  flex-direction: column;
   gap: 60px;
 }
 
 .main-image {
+  position:relative;
   width: 100%;
   max-width: 530px;
   max-height: 610.578px;
@@ -28,6 +28,19 @@ body {
   object-fit: cover;
 }
 
+.main-image::before {
+  position: absolute;
+  background-image: url(./assets/images/6.png);
+  width: 58px;
+  height: 74px;
+  top:-26px;
+  left: -26px;
+}
+
+
+.img_img{
+  width: 100%;
+}
 .main-info {
   display: flex;
   flex-direction: column;
@@ -39,10 +52,10 @@ body {
 .main-title {
   font-size: 70px;
   font-style: normal;
-  font-weight: 400px;
   line-height: 88px; /* 125.714% */
   letter-spacing: 3.2px;
   color: #fff;
+  margin: 30px;
 }
 
 .social-info {
@@ -210,8 +223,7 @@ body {
 }
 
 .container-card {
-  background-color: #191919;
-  width: 1400px;
+  max-width: 1400px;
   height: 901px;
 }
 
@@ -233,7 +245,6 @@ body {
   width: 18px;
   height: 17px;
   flex-shrink: 0;
-  background: #000;
 }
 .image_body {
   background: #000;
