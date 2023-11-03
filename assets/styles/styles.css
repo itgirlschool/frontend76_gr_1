@@ -169,8 +169,7 @@ body {
 }
 
 .container-card {
-  background-color: #191919;
-  width: 1400px;
+  max-width: 1400px;
   height: 901px;
 }
 
