@@ -1,29 +1,29 @@
-.info{
-    color: white;
-    position: relative;
-    height: 100px;
-    position: absolute;
-    top: 40%;
-    margin: -50px 0 0 0;
+.info {
+  color: white;
+  position: relative;
+  height: 100px;
+  position: absolute;
+  top: 40%;
+  margin: -50px 0 0 0;
 }
 
-.teach{
-    position: relative;
+.teach {
+  position: relative;
 }
 
-.work{
-    display: block;
-    margin-left: auto;
-    margin-right: 0;
+.work {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
 }
 
-.jacob{
-    font-size: 70px;
-    font-family: DM Sans, sans-serif;
-    font-style: normal;
-    font-weight: 400px;
-    line-height: 88px; 
-    letter-spacing: 3.2px;
+.jacob {
+  font-size: 70px;
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  line-height: 88px;
+  letter-spacing: 3.2px;
 }
 
 .level{
@@ -40,10 +40,10 @@
     color: blue;
 }
 
-.svg{
-    height: 80px;
-    background-color: blue;
-    border-radius: 40px;
+.svg {
+  height: 80px;
+  background-color: blue;
+  border-radius: 40px;
 }
 
 .host{

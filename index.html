@@ -14,20 +14,37 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
+        <nav class="header-nav">
+            <a class="logo" href="">
+                <img src="./assets/images/header/logo.png" alt="Logo">
+            </a>
+            <ul class="header-list">
+                <li class="header-list__item"><a class="header-list__link" href="#">Home</a></li>
+                <li class="header-list__item"><a class="header-list__link" href="#">Episodes</a></li>
+                <li class="header-list__item"><a class="header-list__link" href="#">About</a></li>
+                <li class="header-list__item"><a class="header-list__link" href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <section class="main-content"> <!--общий блок-->
             <div class="container_block1"> <!--контейнер-->
                 <div class="main-image">
-                    <img src="./assets/images/IMAGE.png" alt="podcast">
+                    <img src="./assets/images/IMAGE.png" alt="podcast" class="img_img">
                 </div>
                 <div class="main-info">
                     <h1 class="main-title">Take your podcast to the <span class="text1">next level</span></h1>
                     <div class="social-info">
                         <span class="name-info">Listen on</span>
-                        <img src="./assets/icons/Frame.png" alt="icons">
+                    <div class="social-info_div">
+                        <a class="social-info-link" href="#"><img src="./assets/icons/icongreen.svg" alt="sportify"></a>
+                        <a class="social-info-link" href="#"><img src="./assets/icons/iconred.svg" alt="music"></a>
+                        <a class="social-info-link" href="#"><img src="./assets/icons/icon_red.svg" alt="cloud"></a>
+                        <a class="social-info-link" href="#"><img src="./assets/icons/icon_violet.svg" alt="podcaster"></a>
+                        <a class="social-info-link" href="#"><img src="./assets/icons/icon_radio.svg" alt="overcast"></a>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -97,11 +114,12 @@
                 <div class="button-container">
                     <button class="button__container">Meet your host</button>
                 </div>
-            </div>
                 <div class="info">
                     <h1 class="jacob">Jacob Paulaner</h1>
-                        <p class="level">Jacob has a background in audio engineering, and has <br> been podcasting since the early days.</p>
-                        <p class="level">He’s here to help you level up your game by sharing <br>everything he’s learned along the way.</p>
+                    <p class="level">Jacob has a background in audio engineering, and has <br> been podcasting since the
+                        early days.</p>
+                    <p class="level">He’s here to help you level up your game by sharing <br>everything he’s learned
+                        along the way.</p>
                 </div>
                 <img class="work" src="assets/images/IMAGE1.png" alt="Jacob">
             </div>
@@ -206,6 +224,46 @@
     </main>
 
     <footer>
+        <nav class="footer-nav">
+            <div class="logo-block">
+                <a class="logo" href="">
+                    <img src="./assets/images/header/logo.png" alt="Logo">
+                </a>
+                <div class="footer-socials"></div>
+            </div>
+            <ul class="footer-nav">
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Home</a></li>
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">About</a></li>
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Episodes</a></li>
+                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Contact</a></li>
+            </ul>
+            <ul class="footer-list">
+                <li class="footer-list__item"><a class="footer-list__link" href="#">Style Guide</a></li>
+                <li class="footer-list__item"><a class="footer-list__link" href="#">Instructions</a></li>
+                <li class="footer-list__item"><a class="footer-list__link" href="#">Changelog</a></li>
+                <li class="footer-list__item"><a class="footer-list__link" href="#">Credit</a></li>
+                <li class="footer-list__item"><a class="footer-list__link" href="#">Powered by Webflow</a></li>
+                <li class="footer-list__item"><a class="footer-list__link" href="#">Licenses</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <a href="#"><img src="" alt="spotify"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="" alt=""></a>
+                </li>
+                <li>
+                    <a href="#"><img src="" alt="podcasts"></a>
+                </li>
+                <li>
+                    <a href="#"><img src="" alt="overcast"></a>
+                </li>
+            </ul>
+        </nav>
+
     </footer>
 
 </body>

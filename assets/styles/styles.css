@@ -16,35 +16,47 @@ body {
 
 .container_block1 {
   display: flex;
-  flex-direction: column;
   gap: 60px;
 }
 
 .main-image {
+  position: relative;
   width: 100%;
   max-width: 530px;
   max-height: 610.578px;
   border-radius: 12px;
   object-fit: cover;
-  
 }
 
+.main-image::before {
+  position: absolute;
+  background-image: url(../images/6.png);
+  background-repeat: no-repeat;
+  width: 68px;
+  height: 74px;
+  top: -26px;
+  left: -26px;
+  background-repeat: no-repeat;
+}
+
+.img_img {
+  width: 100%;
+}
 .main-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-right: 0px;
-  gap: 60px;
-  padding-top: 200px;
+  align-items: center;
+  gap: 53px;
+  padding: 40px;
 }
 
 .main-title {
   font-size: 70px;
   font-style: normal;
-  font-weight: 400px;
   line-height: 88px; /* 125.714% */
   letter-spacing: 3.2px;
   color: #fff;
+  margin: 30px;
 }
 
 .social-info {
@@ -69,6 +81,44 @@ body {
   border-radius: 6px;
   border: none;
   background-color: #118da8;
+}
+
+/* header стили */
+
+.header {
+  padding: 26px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 50px 17px 30px;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-list__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.header-list__link:hover {
+  color: #118da8;
+}
+
+.logo {
+  height: 33px;
 }
 
 /* Стили Latest episodes */
@@ -125,6 +175,12 @@ body {
   width: 100%;
 }
 
+.episodes-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
 .episodes-text__label {
   padding: 0 16px;
   margin-bottom: 48px;
@@ -168,9 +224,9 @@ body {
 }
 
 .container-card {
-  background-color: #191919;
-  width: 1400px;
-  height: 901px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 100px 50px 100px;
 }
 
 .col {
@@ -191,7 +247,6 @@ body {
   width: 18px;
   height: 17px;
   flex-shrink: 0;
-  background: #000;
 }
 .image_body {
   background: #000;
@@ -202,6 +257,7 @@ body {
   flex-direction: column;
   justify-content: center;
   background: #000;
+  padding: 40px;
 }
 
 .card-title {
@@ -215,9 +271,6 @@ body {
 }
 
 .card-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   width: 142px;
   color: white;
   font-size: 23px;
@@ -225,4 +278,3 @@ body {
   font-weight: 400;
   line-height: 28.8px; /* 125.217% */
 }
-
