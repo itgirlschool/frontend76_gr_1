@@ -26,7 +26,6 @@ body {
   max-height: 610.578px;
   border-radius: 12px;
   object-fit: cover;
-  
 }
 
 .main-info {
@@ -35,7 +34,6 @@ body {
   align-items: center;
   gap: 53px;
   padding: 40px;
-  
 }
 
 .main-title {
@@ -69,6 +67,44 @@ body {
   border-radius: 6px;
   border: none;
   background-color: #118da8;
+}
+
+/* header стили */
+
+.header {
+  padding: 26px 0;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 17px 50px 17px 30px;
+}
+
+.header-list {
+  display: flex;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-list__link {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.header-list__link:hover {
+  color: #118da8;
+}
+
+.logo {
+  height: 33px;
 }
 
 /* Стили Latest episodes */
@@ -123,6 +159,12 @@ body {
 }
 .episodes-card__image img {
   width: 100%;
+}
+
+.episodes-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .episodes-text__label {
@@ -216,9 +258,6 @@ body {
 }
 
 .card-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   width: 142px;
   color: white;
   font-size: 23px;
@@ -226,4 +265,3 @@ body {
   font-weight: 400;
   line-height: 28.8px; /* 125.217% */
 }
-
