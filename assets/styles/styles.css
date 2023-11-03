@@ -28,7 +28,9 @@ body {
   object-fit: cover;
   
 }
-
+.img_img{
+  width: 100%;
+}
 .main-info {
   display: flex;
   flex-direction: column;
