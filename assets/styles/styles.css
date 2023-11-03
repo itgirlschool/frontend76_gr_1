@@ -8,9 +8,12 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-.main-content {
+.main-container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.main-content {
   padding: 40px 50px 0px;
 }
 
@@ -58,7 +61,7 @@ body {
 .main-title {
   font-size: 70px;
   font-style: normal;
-  line-height: 88px; /* 125.714% */
+  line-height: 88px;
   letter-spacing: 3.2px;
   color: #fff;
   margin: 30px;
@@ -139,8 +142,6 @@ body {
 
 /* Стили Latest episodes */
 .episodes {
-  max-width: 1400px;
-  margin: 0 auto;
   padding: 100px 50px 160px;
 }
 
@@ -240,8 +241,6 @@ body {
 }
 
 .container-card {
-  max-width: 1400px;
-  margin: 0 auto;
   padding: 100px 50px 100px;
 }
 

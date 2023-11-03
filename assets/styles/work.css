@@ -9,6 +9,8 @@
 
 .teach {
   position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .work {
@@ -26,18 +28,18 @@
   letter-spacing: 3.2px;
 }
 
-.level{
-    font-size: 20px;
-    font-family: DM Sans, sans-serif;
-    font-style: normal;
-    font-weight: 50;
-    line-height: 30px; 
-    letter-spacing: 3.2px;
+.level {
+  font-size: 20px;
+  font-family: DM Sans, sans-serif;
+  font-style: normal;
+  font-weight: 50;
+  line-height: 30px;
+  letter-spacing: 3.2px;
 }
 
-.button__container{
-    background-color: black;
-    color: blue;
+.button__container {
+  background-color: black;
+  color: blue;
 }
 
 .svg {
@@ -46,7 +48,7 @@
   border-radius: 40px;
 }
 
-.host{
-    position: relative;
-    top: 50px;
+.host {
+  position: relative;
+  top: 50px;
 }
