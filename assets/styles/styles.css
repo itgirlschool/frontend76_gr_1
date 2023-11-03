@@ -11,7 +11,7 @@ body {
 .main-content {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 100px 50px 160px;
+  padding: 40px 50px 0px;
 }
 
 .container_block1 {
@@ -23,7 +23,6 @@ body {
   position: relative;
   width: 100%;
   max-width: 530px;
-  max-height: 610.578px;
   border-radius: 12px;
   object-fit: cover;
 }
