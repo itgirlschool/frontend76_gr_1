@@ -28,7 +28,7 @@
         </nav>
     </header>
 
-    <main>
+    <main class="main-container">
         <section class="main-content"> <!--общий блок-->
             <div class="container_block1"> <!--контейнер-->
                 <div class="main-image">
@@ -38,13 +38,18 @@
                     <h1 class="main-title">Take your podcast to the <span class="text1">next <b>level</b></span></h1>
                     <div class="social-info">
                         <span class="name-info">Listen on</span>
-                    <div class="social-info_div">
-                        <a class="social-info-link" href="#"><img src="./assets/icons/icongreen.svg" alt="sportify" class="icons_buttom"></a>
-                        <a class="social-info-link" href="#"><img src="./assets/icons/iconred.svg" alt="music" class="icons_buttom"></a>
-                        <a class="social-info-link" href="#"><img src="./assets/icons/icon_red.svg" alt="cloud" class="icons_buttom"></a>
-                        <a class="social-info-link" href="#"><img src="./assets/icons/icon_violet.svg" alt="podcaster" class="icons_buttom"></a>
-                        <a class="social-info-link" href="#"><img src="./assets/icons/icon_radio.svg" alt="overcast" class="icons_buttom"></a>
-                    </div>
+                        <div class="social-info_div">
+                            <a class="social-info-link" href="#"><img src="./assets/icons/icongreen.svg" alt="sportify"
+                                    class="icons_buttom"></a>
+                            <a class="social-info-link" href="#"><img src="./assets/icons/iconred.svg" alt="music"
+                                    class="icons_buttom"></a>
+                            <a class="social-info-link" href="#"><img src="./assets/icons/icon_red.svg" alt="cloud"
+                                    class="icons_buttom"></a>
+                            <a class="social-info-link" href="#"><img src="./assets/icons/icon_violet.svg"
+                                    alt="podcaster" class="icons_buttom"></a>
+                            <a class="social-info-link" href="#"><img src="./assets/icons/icon_radio.svg" alt="overcast"
+                                    class="icons_buttom"></a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,18 +116,19 @@
                     <div class="arrow">
                         <img class="svg" src="assets/images/circle-arrow-right-solid.svg" alt="circle">
                     </div>
-                <div class="button-container">
-                    <button class="button__container">Meet your host</button>
+                    <div class="button-container">
+                        <button class="button__container">Meet your host</button>
+                    </div>
+                    <div class="info">
+                        <h1 class="jacob">Jacob Paulaner</h1>
+                        <p class="level">Jacob has a background in audio engineering, and has <br> been podcasting since
+                            the
+                            early days.</p>
+                        <p class="level">He’s here to help you level up your game by sharing <br>everything he’s learned
+                            along the way.</p>
+                    </div>
+                    <img class="work" src="assets/images/IMAGE1.png" alt="Jacob">
                 </div>
-                <div class="info">
-                    <h1 class="jacob">Jacob Paulaner</h1>
-                    <p class="level">Jacob has a background in audio engineering, and has <br> been podcasting since the
-                        early days.</p>
-                    <p class="level">He’s here to help you level up your game by sharing <br>everything he’s learned
-                        along the way.</p>
-                </div>
-                <img class="work" src="assets/images/IMAGE1.png" alt="Jacob">
-            </div>
         </section>
 
         <div class="container-card">
@@ -223,43 +229,59 @@
         </div>
     </main>
 
-    <footer>
-        <nav class="footer-nav">
+    <footer class="footer">
+        <nav class="footer-navigation">
             <div class="logo-block">
-                <a class="logo" href="">
+                <a class="logo footer__logo" href="">
                     <img src="./assets/images/header/logo.png" alt="Logo">
                 </a>
-                <div class="footer-socials"></div>
+                <div class="footer-socials">
+                    <ul class="footer-socials__list">
+                        <li><a class="footer-socials__link" href="#"><img src="./assets/images/footer/instagram.svg"
+                                    alt="Instagram"></a></li>
+                        <li><a class="footer-socials__link" href="#"><img src="./assets/images/footer/twitter.svg"
+                                    alt="Twitter"></a></li>
+                        <li><a class="footer-socials__link" href="#"><img src="./assets/images/footer/facebook.svg"
+                                    alt="Facebook"></a></li>
+                    </ul>
+                </div>
             </div>
             <ul class="footer-nav">
-                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Home</a></li>
-                <li class="footer-nav__item"><a class="footer-nav__link" href="#">About</a></li>
-                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Episodes</a></li>
-                <li class="footer-nav__item"><a class="footer-nav__link" href="#">Contact</a></li>
+                <li class="footer-nav__item"><a class="footer__links" href="#">Home</a></li>
+                <li class="footer-nav__item"><a class="footer__links" href="#">About</a></li>
+                <li class="footer-nav__item"><a class="footer__links" href="#">Episodes</a></li>
+                <li class="footer-nav__item"><a class="footer__links" href="#">Contact</a></li>
             </ul>
             <ul class="footer-list">
-                <li class="footer-list__item"><a class="footer-list__link" href="#">Style Guide</a></li>
-                <li class="footer-list__item"><a class="footer-list__link" href="#">Instructions</a></li>
-                <li class="footer-list__item"><a class="footer-list__link" href="#">Changelog</a></li>
-                <li class="footer-list__item"><a class="footer-list__link" href="#">Credit</a></li>
-                <li class="footer-list__item"><a class="footer-list__link" href="#">Powered by Webflow</a></li>
-                <li class="footer-list__item"><a class="footer-list__link" href="#">Licenses</a></li>
+                <li class="footer-list__item"><a class="footer__links" href="#">Style Guide</a></li>
+                <li class="footer-list__item"><a class="footer__links" href="#">Instructions</a></li>
+                <li class="footer-list__item"><a class="footer__links" href="#">Changelog</a></li>
+                <li class="footer-list__item"><a class="footer__links" href="#">Credit</a></li>
+                <li class="footer-list__item"><a class="footer__links" href="#">Powered by Webflow</a>
+                </li>
+                <li class="footer-list__item"><a class="footer__links" href="#">Licenses</a></li>
             </ul>
-            <ul>
+            <ul class="apps-list">
                 <li>
-                    <a href="#"><img src="" alt="spotify"></a>
+                    <a class="footer__links" href="#"><img src="./assets/images/footer/spotify.svg" alt="Spotify">
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><img src="" alt=""></a>
+                    <a class="footer__links" href="#"><img src="./assets/images/footer/pocketcasts.svg"
+                            alt="Pocketcasts">
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><img src="" alt=""></a>
+                    <a class="footer__links" href="#"><img src="./assets/images/footer/soundcloud.svg" alt="SoundCloud">
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><img src="" alt="podcasts"></a>
+                    <a class="footer__links" href="#"><img src="./assets/images/footer/podcasts.svg" alt="Podcasts">
+                    </a>
                 </li>
                 <li>
-                    <a href="#"><img src="" alt="overcast"></a>
+                    <a class="footer__links" href="#"><img src="./assets/images/footer/overcast.svg" alt="Overcast">
+                    </a>
                 </li>
             </ul>
         </nav>

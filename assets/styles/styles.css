@@ -8,9 +8,12 @@ body {
   font-family: "DM Sans", sans-serif;
 }
 
-.main-content {
+.main-container {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+.main-content {
   padding: 40px 50px 0px;
 }
 
@@ -43,10 +46,9 @@ body {
   width: 100%;
 }
 
-.icons_buttom{
+.icons_buttom {
   width: 32px;
   height: 32px;
-
 }
 .main-info {
   display: flex;
@@ -59,7 +61,7 @@ body {
 .main-title {
   font-size: 70px;
   font-style: normal;
-  line-height: 88px; /* 125.714% */
+  line-height: 88px;
   letter-spacing: 3.2px;
   color: #fff;
   margin: 30px;
@@ -140,8 +142,6 @@ body {
 
 /* Стили Latest episodes */
 .episodes {
-  max-width: 1400px;
-  margin: 0 auto;
   padding: 100px 50px 160px;
 }
 
@@ -241,8 +241,6 @@ body {
 }
 
 .container-card {
-  max-width: 1400px;
-  margin: 0 auto;
   padding: 100px 50px 100px;
 }
 
@@ -293,4 +291,95 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 28.8px; /* 125.217% */
+}
+
+/* Footer */
+
+.footer {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+
+.footer-navigation {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  gap: 16px;
+}
+
+.logo-block {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer__logo {
+  width: 224px;
+  height: 46px;
+}
+
+.footer__logo img {
+  width: 100%;
+}
+
+.footer-socials__list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-socials__link {
+  display: inline-block;
+  height: 100%;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__links {
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.footer__links:hover {
+  color: #118da8;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.apps-list {
+  display: flex;
+  gap: 17px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .episodes-card {
+    flex-direction: column;
+  }
+
+  .episodes-card__image {
+    height: 400px;
+    max-width: 100%;
+  }
 }
