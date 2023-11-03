@@ -26,18 +26,18 @@
   letter-spacing: 3.2px;
 }
 
-.level {
-  font-size: 20px;
-  font-family: DM Sans, sans-serif;
-  font-style: normal;
-  font-weight: 50px;
-  line-height: 30px;
-  letter-spacing: 3.2px;
+.level{
+    font-size: 20px;
+    font-family: DM Sans, sans-serif;
+    font-style: normal;
+    font-weight: 50;
+    line-height: 30px; 
+    letter-spacing: 3.2px;
 }
 
-.button {
-  background-color: black;
-  color: blue;
+.button__container{
+    background-color: black;
+    color: blue;
 }
 
 .svg {
@@ -46,7 +46,7 @@
   border-radius: 40px;
 }
 
-.host {
-  position: relative;
-  top: 210px;
+.host{
+    position: relative;
+    top: 50px;
 }

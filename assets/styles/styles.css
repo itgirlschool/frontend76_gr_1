@@ -11,7 +11,7 @@ body {
 .main-content {
   max-width: 1400px;
   margin: 0 auto;
-  padding: 100px 50px 160px;
+  padding: 40px 50px 0px;
 }
 
 .container_block1 {
@@ -23,22 +23,30 @@ body {
   position: relative;
   width: 100%;
   max-width: 530px;
-  max-height: 610.578px;
   border-radius: 12px;
   object-fit: cover;
 }
 
 .main-image::before {
+  content: "";
   position: absolute;
-  background-image: url(./assets/images/6.png);
-  width: 58px;
+  background-image: url(../images/6.png);
+  background-repeat: no-repeat;
+  width: 68px;
   height: 74px;
   top: -26px;
   left: -26px;
+  background-repeat: no-repeat;
 }
 
 .img_img {
   width: 100%;
+}
+
+.icons_buttom{
+  width: 32px;
+  height: 32px;
+
 }
 .main-info {
   display: flex;
@@ -58,6 +66,17 @@ body {
 }
 
 .social-info {
+  width: 289px;
+  height: 72px;
+}
+
+.social-info_div {
+  display: inline-flex;
+  height: 32px;
+  padding-right: 0px;
+  align-items: flex-start;
+  gap: 17px;
+  flex-shrink: 0;
   width: 289px;
   height: 72px;
 }
