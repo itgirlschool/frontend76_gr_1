@@ -43,6 +43,12 @@ body {
 .img_img {
   width: 100%;
 }
+
+.icons_buttom{
+  width: 32px;
+  height: 32px;
+
+}
 .main-info {
   display: flex;
   flex-direction: column;
@@ -61,6 +67,17 @@ body {
 }
 
 .social-info {
+  width: 289px;
+  height: 72px;
+}
+
+.social-info_div {
+  display: inline-flex;
+  height: 32px;
+  padding-right: 0px;
+  align-items: flex-start;
+  gap: 17px;
+  flex-shrink: 0;
   width: 289px;
   height: 72px;
 }
