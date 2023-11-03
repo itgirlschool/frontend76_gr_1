@@ -373,3 +373,14 @@ body {
   margin: 0;
   padding: 0;
 }
+
+@media screen and (max-width: 1024px) {
+  .episodes-card {
+    flex-direction: column;
+  }
+
+  .episodes-card__image {
+    height: 400px;
+    max-width: 100%;
+  }
+}
