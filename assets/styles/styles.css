@@ -223,7 +223,8 @@ body {
 
 .container-card {
   max-width: 1400px;
-  height: 901px;
+  margin: 0 auto;
+  padding: 100px 50px 100px;
 }
 
 .col {
