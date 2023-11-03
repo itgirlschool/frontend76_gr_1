@@ -30,11 +30,13 @@ body {
 
 .main-image::before {
   position: absolute;
-  background-image: url(./assets/images/6.png);
-  width: 58px;
+  background-image: url(../images/6.png);
+  background-repeat: no-repeat;
+  width: 68px;
   height: 74px;
   top: -26px;
   left: -26px;
+  background-repeat: no-repeat;
 }
 
 .img_img {
