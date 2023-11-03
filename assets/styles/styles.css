@@ -20,7 +20,7 @@ body {
 }
 
 .main-image {
-  position:relative;
+  position: relative;
   width: 100%;
   max-width: 530px;
   max-height: 610.578px;
@@ -33,12 +33,11 @@ body {
   background-image: url(./assets/images/6.png);
   width: 58px;
   height: 74px;
-  top:-26px;
+  top: -26px;
   left: -26px;
 }
 
-
-.img_img{
+.img_img {
   width: 100%;
 }
 .main-info {
